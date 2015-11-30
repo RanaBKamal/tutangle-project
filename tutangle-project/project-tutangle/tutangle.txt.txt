@@ -1,0 +1,2 @@
+the alignment of the user menu is done by floating the ul option to the 
+right.

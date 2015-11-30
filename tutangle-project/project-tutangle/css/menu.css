@@ -1,0 +1,235 @@
+#user-menu ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    float: right;
+}
+#user-menu ul li {
+    float:left;
+    width: auto;
+    background-color:none;
+    color: #23363d;
+}
+#user-menu ul li a{
+    display:block;
+    font: arial;
+    text-decoration: none;
+    color: #23363d;
+}
+#user-menu ul li:hover a{
+    color:white;
+}
+
+
+/*for navigation menu*/
+#nav-menus{
+    width: 100%;
+    font: arial;
+    text-decoration: none;
+    font-size: 0.875em;
+}
+#nav-menus ul{
+    width: 67.164179104477%;
+    padding-right:0.8528784648%;
+    float: left;
+}
+#nav-menus ul li{
+    float: left;
+    width: auto;
+    background-color: none;
+    padding-right: 4.702194357366%;
+}
+#nav-menus ul li:hover{
+	background-color:  #7dd9e8;
+}
+#nav-menus ul li a{
+    float: right;
+    display: block;
+    font: arial;
+    font-size: 0.875em;
+    color: #000000;
+    line-height: 40px;
+    text-decoration: none;
+}
+#nav-menus ul li:hover a{
+    color:#ffffff;
+    background-color:  #7dd9e8;
+}
+
+/* thi is left column lower lists*/
+.lr-lists{
+    width: 100%;
+    font-family: arial;
+    text-decoration: none;
+    background-color:none; 
+}
+.lr-lists ul{
+    width: 100%;
+    float: left;
+    background-color: none;
+}
+.lr-lists ul li{
+    float: left;
+    width:93.81443298969%;
+    padding-left: 6.185567010%;
+}
+.lr-lists ul li a{
+    float: left;
+    display: block;
+    font-family: arial;
+    font-size: 0.75em;
+    text-decoration: none;
+    color: #292929;
+    line-height: 16px;
+    background-color:none;
+    padding-top: 7.73195876288%;  
+    padding-bottom: 7.73195876288%; 
+    width: 80%;
+}
+.lr-lists ul li a.download{
+    float: right;
+    font-family: arial;
+    font-size: 0.75em;
+    line-height: 16px;
+    background-color: none;
+    width: 20%;
+    padding-top: 7.73195876288%;  
+    padding-bottom: 7.73195876288%;
+
+}
+.lr-lists ul li:hover{
+    background-color:#ffffff; 
+}
+
+/* left body navigation lists*/
+.lbody-nav-lists{
+    width: 100%;
+    font-family: arial;
+    font-size: 0.8125em;
+    text-decoration: none;
+    background-color:none; 
+}
+.lbody-nav-lists ul{
+    width: 100%;
+    float: left;
+    background-color: none;
+}
+.lbody-nav-lists ul li{
+    float: left;
+    width: 44.015444015444%;
+    height: auto;
+    padding-left:3.861003861%;
+    background-image: url(../images/body-nav-pad-passive.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.lbody-nav-lists ul li a{
+    display: block;
+    font-family: arial;
+    font-size: 0.8125em;
+    text-decoration: none;
+    color: #292929;
+    line-height: 30px;
+    text-align: center;
+    background-color:none;
+    word-wrap:break-word;
+}
+.lbody-nav-lists ul li:hover{
+    background-image: url(../images/body-nav-pad-active.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.lbody-nav-lists ul li:hover a{
+    color: #ffffff;
+}
+
+/*Description lists goes here*/
+.body-person-description-lists{
+    width: 100%;
+    font-family: arial;
+    text-decoration: none;
+    background-color: none;   
+}
+.body-person-description-lists ul{
+    width: 100%;
+    float: left;
+    background-color: none;
+}
+.body-person-description-lists ul li{
+    padding-top: 2.8957528957%;
+    float: left;
+    height: auto;
+}
+.body-person-description-lists ul li img.profile-pic{
+    width: 13.5135135%;
+    float: left;
+    display: block;
+    margin-right: 1.93050193050%;
+}
+.body-person-description-lists p.category{
+    width: 84.5559846%;
+    float: left;
+    font-size:0.6875em;
+    text-transform: uppercase;
+    color: #239ea6;
+   line-height: 14px;
+}
+.body-person-description-lists ul li p.title{
+    width: 84.5559846%;
+    float: left;
+    font-size:0.9375em;
+    font-family: arial;
+    color: #060606;
+    line-height: 20px;
+}
+.body-person-description-lists ul li p.writer-summary{
+    width: 84.5559846%;
+    float: left;
+    font-size:0.6875em;
+    font-family: arial;
+    color:#060606;
+    line-height: 14px;
+}
+.body-person-description-lists ul li p.which-topic-box{
+    width: 84.5559846%;
+    float: left;
+    font-size:0.6875em;
+    font-family: arial;
+    color:#060606;
+    line-height: 14px;
+}
+
+hr.body-item-separater{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+/*Footer mernu goes here*/
+.footer-menus{
+    width: 70%;
+    padding-right: 5%;
+    float: left;
+    background-color: none;
+}
+.footer-menus ul{
+    width: 100%;
+    float: left;
+}
+.footer-menus ul li{
+    float: left;
+    height: auto;
+}
+.footer-menus ul li a{
+    display: block;
+    float: left;
+    background: none;
+    line-height: 45px;
+    font-family: arial;
+    font-size: 0.625em;
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-menus ul li a:hover{
+    color:#7dd9e8; 
+}
